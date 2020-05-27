@@ -1,0 +1,405 @@
+@charset="utf-8";
+*
+{
+	margin:0;
+	padding:0;
+	font-family:'Josefin Sans',sans-serif;
+	
+	
+}
+
+section
+{
+	display:flex;
+	
+}
+
+/* Section 1 */
+
+.section1{
+    width:20%;
+		margin-left:5%;
+}
+.section2{
+    width:65%;
+    display:inline-block;
+}
+.logo
+{	margin-left:20px;
+margin-top:5px;
+	width:65px;
+	height:85px;
+}
+.logo2
+{
+	height:75px;
+	width:130px;
+}
+
+.navigation{
+    margin-top:2%;
+    width:100%;
+    height:50px;
+    background-color:black;
+    border-radius:6px;
+   
+    align-items:center;
+}
+
+.toggle 
+{	margin-top:5px;
+    height:30px;
+    width:30px;
+    margin-left:3%;
+	
+}
+
+.cgr
+{
+	margin-left:3%;
+	color:white;
+	
+	
+}
+.submenu
+{
+	background-color:#d3d3d3;
+	color:black;
+	display:block;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:1px solid BLACK;
+	text-decoration:none;
+	text-align:center;
+	height:20px;
+}
+.submenu:hover
+{
+	
+	color:blue;
+	background-color:white;
+	
+}
+.iframe
+{
+	border:1px solid black;
+}
+
+/* Section 2 */
+
+.sbutton
+{
+	border:2px solid black;
+	background:black;
+	color:white;
+	width:110px;
+	border-radius:10px;
+	height:24px;
+	
+}
+.new_logo
+{
+	vertical-align:bottom;
+}
+.sbutton1
+{
+	border:2px solid black;
+	background:white;
+	color:black;
+	width:110px;
+	border-radius:10px;
+	height:24px;
+	
+}
+.search_system
+{
+	margin-left:285px;
+}
+.search
+{
+	vertical-align:bottom;
+	border:2px solid black;
+	width:250px;
+	height:20px;
+}
+.label
+{
+	color:black;
+	font-size:18px;
+}
+
+.contact{
+	
+	background:WHITE;
+	color:BLACK;
+	
+	
+}
+.call_logo
+{
+	
+	height:35px;
+	width:30px;
+	margin-left:2PX;
+	
+}
+.tel-no
+{
+	
+	font-size:19px;
+	font-family:fantasy;
+	text-align:right;
+}
+nav
+{
+margin-top:4%;
+width:100%;
+height:2%;
+background-color:white;
+border-radius:6px;
+
+justify-content:center;
+align-items:center;
+	
+}
+
+
+.prd_image
+{	
+	text-align:left;
+	margin-left:0px;
+	position:left;
+	background:red;
+	
+	
+}
+.para
+{	padding:5%;
+	background:black;
+	color:white;
+	border:1px solid black;
+}
+
+.b
+{
+	border:1px solid black;
+	background:black;
+}
+.img1
+{
+	height:100px;
+	width:50px;
+	
+}
+.div1
+{
+	background:#DCDCDC;
+}
+table{
+	border-collapse:collapse;
+}
+td,th
+{
+	
+	vertical-align:top;
+	border:2px solid white;
+	text-align:center;
+	
+width:20%;
+
+border:1px solid white;
+}
+
+/* mobile page */
+.products_mobile
+{
+	background:black;
+	color:white;
+	text-align:center;
+	padding:1.1%;
+}
+.product_name
+{
+	height:15px;
+	color:black;
+}
+.space
+{
+	height:30px;
+	
+}
+.contact_us
+{
+	color:black;
+	height:3%;
+	
+	text-align:bottom;
+}
+table{
+border-collapse:collapse;
+}
+tr,th,td
+{	
+
+	
+}
+.down
+{
+	vertical-align:bottom;
+	border:1px solid black;
+}
+.section2{
+	margin-left:55px;
+	
+}
+.logo1
+{
+	
+	margin-left:0px;
+margin-top:5px;
+	width:65px;
+	height:85px;
+	
+}
+
+.pro:hover
+{
+	height:110%;
+	width:70%;
+}
+.TEXT
+{
+	border:2px solid black;
+	height:20px;
+}
+.textar
+{
+	height:80px;
+	width:300px;
+	border:1px solid black;
+}
+.btn
+{
+	border:1px solid black;
+	background:black;
+	color:white;
+	height:25px;
+	width:300px;
+}
+.abt
+{
+	border:1px solid black;
+	 width:600px ;
+	 margin-left:380px;
+	 background:#dcdcdc;
+}
+.test
+{
+	background-image: url("IMAGES/1.png");
+}
+
+/* login page */
+.loginhead
+{
+	background:black;
+	color:white;
+	padding:5px;
+	font-size:15px;
+	margin-left:30%;
+	margin-right:30%;
+}
+.loginbody
+{
+	background:#dcdcdc;
+	margin-left:30%;
+	margin-right:30%;
+}
+.email
+{
+height:20px;
+width:200px;
+border:1px solid black;
+	
+}
+.password
+{
+	height:20px;
+width:200px;
+border:1px solid black;	
+}
+
+
+.loginbutton
+{
+	height:40px;
+width:250px;
+border:1px solid black;
+background:black;
+color:white;
+	
+}
+
+
+
+
+
+
+
+
+.menu{
+	text-decoration:none;
+	color:white;
+	background:black;
+}
+
+
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 10px;
+  
+  border:2px solid white;
+  width: 290px;
+}
+
+
+/* feedback */
+ .FEEDBACK_SUBMIT
+ {
+	 width:200px;
+	 border:2px solid blue;
+	 background:black;
+	 color:white;
+	 height:30px;
+ }
+
+ @media only screen and (max-width: 480px) {
+	*
+{
+	margin:0;
+	padding:0;
+	font-family:'Josefin Sans',sans-serif;
+} 
+.section1{
+	width:10%
+}
+.section2{
+    width:90%;
+    
+}
+	 .logo
+{	
+	margin-left:20px;
+	margin-top:5px;
+	width:100%;
+	height:100%;
+}
+.logo2
+{
+	height:100%;
+	width:100%;
+}
+
